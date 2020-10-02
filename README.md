@@ -12,3 +12,5 @@ The scrapers are written in Python, using Jupyter notebooks for ease of explorat
 After scraping all the bullets, I ran them all through a perl script to uniformly format them and merge them into one final text file output. 
 
 Several of the source websites had bullets organized into categories. I wanted to keep this project simple and just scrape a dumb list of all bullets. In the unlikely event that this becomes a more serious effort, some work can be done to cross-link categories between the different sites and include tags for each bullet based on content.
+
+The underlying purpose of this project is to provide a training data source for a machine learning model that can "auto-generate" bullets.
